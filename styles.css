@@ -11,9 +11,14 @@ h1, h2, p{
     padding: 0px;
 }
 
+header{
+    margin-bottom: 120px;
+}
 
 .background-image{
     background-image: url("images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     place-items: center;
     margin-bottom: 48px;
@@ -34,6 +39,8 @@ h1, h2, p{
     margin-left: 36px;
     margin-right: 36px;
     padding-bottom: 12px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
 }
 
 .subHeader-text{
@@ -41,28 +48,50 @@ h1, h2, p{
     margin-right: 18px;
     opacity: 0.5;
     margin-bottom: 25px;
+    color: hsl(210, 10%, 33%);
 }
 
 .download-buttons{
     display: flex;
     flex-direction: column;
+    width: 85%;
+    margin-left: 7.5%;
 }
 
 button{
     margin: 6px;
+    border: 0;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 28px;
+    cursor: pointer;
 }
 
-.first-feature{
+.green-button{
+    background-color: hsl(171, 66%, 44%);
+}
+
+.blue-button{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.features-details{
     text-align: center;
+    display: grid;
+    place-items: center;
 }
 
 .computer-logo{
     width: 100%;
+    margin-top: 30px;
+    margin-bottom: 35px;
 }
 
 #comp-logo-img{
-    width: 85%;
-    margin-left: 7.5%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .stack-of-next-three-features{
@@ -130,5 +159,30 @@ button{
         flex-direction: row;
         justify-content: center;
     }
-    
+    button{
+        width: 150px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .flex-box-on-desktop{
+        display: flex;
+        flex-direction: row;
+    }
+    .stack-of-next-three-features{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .custom-alignment{
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    .custom-margin-one{
+        margin-bottom: 5px;
+    }
+    .custom-margin-two{
+        margin-bottom: 25px;
+    }
+
 }
