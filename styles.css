@@ -5,7 +5,7 @@
 body{
     margin: 0px;
 }
-h1,p{
+h1, h2, p{
     margin: 0px;
     padding: 0px;
 }
@@ -31,7 +31,40 @@ header{
     text-align: center;
 }
 
+.header-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.subHeader-text{
+    display: flex;
+    flex-direction: column;
+}
+
 .download-buttons{
     display: flex;
     flex-direction: column;
+}
+
+.first-feature{
+    text-align: center;
+}
+
+.computer-logo{
+    border: 2px solid pink;
+    width: 100%;
+}
+
+#comp-logo-img{
+    width: 85%;
+    margin-left: 7.5%;
+}
+
+.stack-of-next-three-features{
+    text-align: center;
+}
+
+#tab-n-phone-img{
+    width: 85%;
+    margin-left: 7.5%;
 }
