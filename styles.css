@@ -68,3 +68,32 @@ header{
     width: 85%;
     margin-left: 7.5%;
 }
+
+.another-feature{
+    text-align: center;
+}
+
+.additional-information{
+    text-align: center;
+}
+
+.company-logos{
+    display: grid;
+    place-items: center;
+}
+
+.download-info{
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(245, 246, 248);
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.site-logo-footer{
+    width: 75px;
+    height: 75px;
+}
