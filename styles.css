@@ -80,6 +80,7 @@ button{
     text-align: center;
     display: grid;
     place-items: center;
+    margin-bottom: 120px;
 }
 
 .computer-logo{
@@ -105,10 +106,15 @@ button{
 
 .another-feature{
     text-align: center;
+    display: grid;
+    place-items: center;
+    margin-bottom: 120px;
 }
 
 .additional-information{
     text-align: center;
+    display: grid;
+    place-items: center;
 }
 
 .company-logos{
