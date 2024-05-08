@@ -115,6 +115,20 @@ button{
     text-align: center;
     display: grid;
     place-items: center;
+    margin-bottom: 120px;
+}
+
+.first-additional-feature{
+    margin-bottom: 90px;
+}
+
+.flex-box-on-desktop-two{
+    display: flex;
+    flex-direction: column;
+}
+
+.clipboard-logo, .text-logo, .eye-logo{
+    margin-bottom: 25px;
 }
 
 .company-logos{
@@ -122,8 +136,24 @@ button{
     place-items: center;
 }
 
+.logo-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+    justify-content: center !important;
+}
+
+.logo-section div {
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
 .download-info{
     text-align: center;
+    margin-bottom: 120px;
+    display: grid;
+    place-items: center;
 }
 
 .footer{
@@ -134,10 +164,32 @@ button{
 }
 
 .site-logo-footer{
-    width: 75px;
-    height: 75px;
+    width: 55px;
+    height: 55px;
 }
 
+.site-logo{
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+.faqs-n-all p {
+    margin-bottom: 20px;
+}
+
+.hover-effect:hover {
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+}
+
+.social-links{
+    margin-top: 45px;
+
+}
+
+.social-links img {
+    margin-right: 20px;
+}
 
 @media (min-width:520px){
     .background-image{
@@ -190,5 +242,28 @@ button{
     .custom-margin-two{
         margin-bottom: 25px;
     }
-
+    .flex-box-on-desktop-two{
+        flex-direction: row;
+        width: 75%;
+    } 
+    .custom-margin-additonal-Feature{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .logo-section{
+        flex-direction: row;
+    }
+    .footer-flex{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .site-logo, .faqs-n-all, .social-links, #column1, #column2, #column3{
+        flex-grow: 1;
+    }
+    .faqs-n-all{
+        margin-top: 45px;
+        display: flex;
+        flex-direction: row;
+    }
 }
